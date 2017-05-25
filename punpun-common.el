@@ -142,6 +142,22 @@
    (flyspell-duplicate :underline (:style wave :color orange))
    (flyspell-incorrect :underline (:style wave :color red))
 
+   ;; font-latex.el
+   (font-latex-bold-face :weight bold)
+   (font-latex-doctex-documentation-face :slant italic)
+   (font-latex-italic-face :slant italic)
+   (font-latex-math-face :foreground violet)
+   (font-latex-sectioning-1-face :inherit outline-1)
+   (font-latex-sectioning-2-face :inherit outline-2)
+   (font-latex-sectioning-3-face :inherit outline-3)
+   (font-latex-sectioning-4-face :inherit outline-4)
+   (font-latex-sectioning-5-face :inherit outline-5)
+   (font-latex-sedate-face :inherit shadow)
+   (font-latex-string-face :inherit font-lock-string-face)
+   (font-latex-slide-title-face :inherit outline-1)
+   (font-latex-verbatim-face :inherit shadow)
+   (font-latex-warning-face :inherit warning)
+
    ;; font-lock.el
    (font-lock-builtin-face :foreground base4 :weight bold)
    (font-lock-comment-face :foreground base4)
@@ -226,6 +242,9 @@
    (outline-7 :inherit outline-1)
    (outline-8 :inherit outline-1)
 
+   ;; preview.el
+   (preview-face :inherit shadow)
+
    ;; pulse.el
    (pulse-highlight-start-face :background yellow)
 
@@ -253,6 +272,10 @@
    ;; smartparens.el
    (sp-wrap-overlay-opening-pair :inherit sp-wrap-overlay-face :foreground green)
    (sp-wrap-overlay-closing-pair :inherit sp-wrap-overlay-face :foreground red)
+
+   ;; tex-fold.el
+   (TeX-fold-folded-face :foreground blue)
+   (TeX-fold-unfolded-face :foreground base1)
 
    ;; tooltip.el
    (tooltip :inherit default :background base0)
