@@ -1,9 +1,9 @@
 ;;; punpun-common.el --- A bleak theme.
 
-;; Copyright (C) 2016 Vasilij Schneidermann <v.schneidermann@gmail.com>
+;; Copyright (C) 2016 Vasilij Schneidermann <mail@vasilij.de>
 
-;; Author: Vasilij Schneidermann <v.schneidermann@gmail.com>
-;; URL: https://github.com/wasamasa/punpun-theme
+;; Author: Vasilij Schneidermann <mail@vasilij.de>
+;; URL: https://depp.brause.cc/punpun-theme
 
 ;; This file is NOT part of GNU Emacs.
 
