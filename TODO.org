@@ -1,0 +1,88 @@
+* Built-in packages [25/36]
+
+- [X] compile.el
+- [X] cua-base.el
+- [ ] cus-edit.el
+- [ ] diff-mode.el
+- [X] dired.el
+- [ ] ediff-init.el
+- [X] em-ls.el
+- [X] em-prompt.el
+- [ ] erc-goodies.el
+- [ ] erc-match.el
+- [ ] erc-stamp.el
+- [ ] erc.el
+- [X] eww.el
+- [X] flymake
+- [X] flyspell
+- [X] gdb-mi.el
+- [X] ido.el
+- [X] info.el
+- [X] isearch.el
+- [X] linum.el
+- [X] make-mode.el
+- [X] nxml-mode.el
+- [X] nxml-outln.el
+- [X] outline.el
+- [X] pulse.el
+- [ ] rcirc.el
+- [X] re-builder.el
+- [X] replace.el
+- [X] rst.el
+- [X] sh-script.el
+- [ ] speedbar.el
+- [ ] term.el
+- [X] tooltip.el
+- [X] which-func.el
+- [X] whitespace.el
+- [ ] wid-edit.el
+
+* Bundled packages [0/14]
+
+- [ ] gnus-art.el
+- [ ] gnus-cite.el
+- [ ] gnus-fun.el
+- [ ] gnus-srvr.el
+- [ ] gnus.el
+- [ ] message.el
+- [ ] mm-decode.el
+- [ ] mm-uu.el
+- [ ] org-faces.el
+- [ ] org-habit.el
+- [ ] org-inlinetask.el
+- [ ] ox-beamer.el
+- [ ] sieve-mode.el
+- [ ] spam.el
+
+* External packages [13/30]
+
+- [X] ace-jump
+- [ ] auctex
+- [X] avy
+- [ ] auto-complete/popup
+- [ ] calfw
+- [ ] cider
+- [ ] circe/lui
+- [ ] company
+- [X] counsel
+- [ ] elfeed
+- [X] flycheck
+- [X] enh-ruby-mode
+- [ ] helm
+- [X] highlight-indentation
+- [X] highlight-numbers
+- [X] highlight-symbol
+- [X] hydra
+- [X] ivy
+- [ ] jabber
+- [ ] js2-mode
+- [ ] magit
+- [ ] markdown-mode
+- [ ] mu4e
+- [ ] powerline
+- [ ] rainbow-delimiters
+- [X] smartparens
+- [ ] smart-mode-line
+- [X] swiper
+- [X] undo-tree
+- [ ] web-mode
