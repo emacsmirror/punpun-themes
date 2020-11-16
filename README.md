@@ -17,8 +17,8 @@ will work in 256-color terminal emulators as well.  Enjoy!
 
 ## Installation
 
-Set up the [Marmalade] or [MELPA (stable)] repository if you haven't
-already and install with `M-x package-install RET punpun-theme RET`.
+Set up the [MELPA (stable)] repository if you haven't already and
+install with `M-x package-install RET punpun-theme RET`.
 
 ## Usage
 
@@ -32,5 +32,4 @@ Replace `punpun-light` with `punpun-dark` for the dark version.
 [image]: img/banner.png
 [screenshot]: img/light.png
 [screenshot2]: img/dark.png
-[Marmalade]: https://marmalade-repo.org/
 [MELPA (stable)]: http://melpa.org/
