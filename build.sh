@@ -1,10 +1,11 @@
 #!/bin/bash
 
-version=$(cut -d\" -f4 punpun-theme-pkg.el)
-basename="punpun-theme-$version"
+pkgname=punpun-themes
+version=$(cut -d\" -f4 $pkgname-pkg.el)
+release=$pkgname-$version
 
-rm -rf $basename
-mkdir $basename
-cp punpun-common.el punpun-theme-pkg.el punpun-dark-theme.el punpun-light-theme.el LICENSE README.rst $basename
-tar -cf $basename.tar $basename
-rm -rf $basename
+rm -rf $release
+mkdir $release
+cp punpun-themes.el punpun-themes-pkg.el punpun-dark-theme.el punpun-light-theme.el LICENSE README.md $release
+tar -cf $release.tar $release/
+rm -rf $release

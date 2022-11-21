@@ -1,9 +1,9 @@
-;;; punpun-common.el --- A bleak theme.
+;;; punpun-themes.el --- Common color definitions for punpun themes
 
 ;; Copyright (C) 2016 Vasilij Schneidermann <mail@vasilij.de>
 
 ;; Author: Vasilij Schneidermann <mail@vasilij.de>
-;; URL: https://depp.brause.cc/punpun-theme
+;; URL: https://depp.brause.cc/punpun-themes
 
 ;; This file is NOT part of GNU Emacs.
 
@@ -24,8 +24,9 @@
 
 ;;; Commentary:
 
-;; A bleak theme.  Uses shades of gray and the occasional splash of
-;; color.  Designed for 256-color terminals.  Comes in light and dark!
+;; A set of bleak themes. Uses shades of gray and the occasional
+;; splash of color. Designed for 256-color terminals. Comes in light
+;; and dark!
 
 ;;; Code:
 
@@ -367,6 +368,5 @@
                   (file-name-as-directory
                    (file-name-directory load-file-name))))
 
-(provide 'punpun-common)
-
-;;; punpun-common.el ends here
+(provide 'punpun-themes)
+;;; punpun-themes.el ends here

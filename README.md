@@ -2,7 +2,7 @@
 
 ## About
 
-Yowdy!  This theme is an experiment.  While there's plenty of
+Yowdy!  This light theme is an experiment.  While there's plenty of
 gorgeous-looking dark themes, I've had less luck with light themes, so
 here's my own take on that.  There's a strong emphasis on shades of
 gray, variations in font weight/slant and sometimes a bit of color.
@@ -18,7 +18,7 @@ will work in 256-color terminal emulators as well.  Enjoy!
 ## Installation
 
 Set up the [MELPA (stable)] repository if you haven't already and
-install with `M-x package-install RET punpun-theme RET`.
+install with `M-x package-install RET punpun-themes RET`.
 
 ## Usage
 
