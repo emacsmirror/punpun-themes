@@ -126,6 +126,7 @@
    (vertical-border :foreground base4)
    (window-divider :inherit vertical-border)
    (minibuffer-prompt :inherit font-lock-comment-face)
+   (tab-bar :foreground base5 :background base1)
 
    (error :foreground red)
    (success :foreground green)
@@ -305,6 +306,9 @@
    ;; smartparens.el
    (sp-wrap-overlay-opening-pair :inherit sp-wrap-overlay-face :foreground green)
    (sp-wrap-overlay-closing-pair :inherit sp-wrap-overlay-face :foreground red)
+
+   ;; tab-bar.el
+   (tab-bar-tab-inactive :foreground base3 :background base1)
 
    ;; tex-fold.el
    (TeX-fold-folded-face :foreground blue)
