@@ -303,6 +303,9 @@
    (sh-heredoc :inherit font-lock-string-face)
    (sh-quoted-exec :slant italic)
 
+   ;; shorthands.el
+   (elisp-shorthand-font-lock-face :inherit shadow)
+
    ;; smartparens.el
    (sp-wrap-overlay-opening-pair :inherit sp-wrap-overlay-face :foreground green)
    (sp-wrap-overlay-closing-pair :inherit sp-wrap-overlay-face :foreground red)
